@@ -1,0 +1,189 @@
+<html>
+<title> PICO </title>
+<head>
+<link rel="stylesheet"href="style.css"/>
+</head>
+
+<body>
+
+
+  <h1 id="logo"> <a href="#"> PICO </a> </h1>
+
+  <nav>
+    <ul>
+      <li> <a class="link" href="https://danielzameh.github.io/ComingSoon-Screen/"> Home </a> </li>
+      <li> <a class="link" target="_blank" href="https://danielzameh.github.io/ComingSoon-Screen/"> About </a></li>
+      <li> <a class="link" target="_blank" href="https://danielzameh.github.io/ComingSoon-Screen/"> Curiosity </a></li>
+      <li> <a class="link" target="_blank" href="https://danielzameh.github.io/ComingSoon-Screen/"> Models Page
+    </ul>
+  </nav>
+
+  <div class="heropage">
+    <div class="herotext">
+      <h1> PICO: A Tech Story. </h1>
+      <a target="_blank" href="https://danielzameh.github.io/ComingSoon-Screen/"><button> Learn More </button></a>
+    </div>
+  </div>
+
+
+    <div class="main">
+      <img src="https://clipground.com/images/png-computer-screen-2.png">
+      <div class="main-text">
+      <h2> Our Laptop Designs. </h2>
+      <p>  PICO offers a sleek and minimalist design, with a slim aluminum chassis and an edge-to-edge display laptop. It's available in a range of vibrant colors, giving it a modern and eye-catching appeal.Our laptop feature a stunning 14-inch Full HD IPS display with thin bezels, delivering vibrant colors and sharp visuals. 
+</p>
+    </div>
+  </div>
+
+
+<section>
+  <article>
+    <blockquote>You never change things by fighting the existing reality.
+To change something, build a new model that makes the existing model obsolete.
+    <cite> Buckminster Fuller </cite>
+   </blockquote>
+  </article>
+</section>
+
+<div class="content2">
+  <img class="secondimg" src="http://clipart-library.com/data_images/17244.png" alt="Space Shuttle Image">
+    <div class="SecDivider"> </div>
+  <div class="SecondText">
+<h2>Our Processors </h2>
+<p> PICO Processors Are So Advanced Unlike Other Processors It Is Way Faster And Has Less Loading Time PICO Made This Processor To Help Clients Use The Device Faster And More Effectively Our Processors are Smooth Which Can Reduce Many Problems Like Lagging. </p>
+</div>
+</div>
+
+<div class="container">
+  <div class="item">
+    <img class="profile" src="https://static.livebooks.com/a252d92208c3401c9af74171e154fbe1/i/d0dceb6b20d643afbb539ce2f02d7f47/1/GCuCv726vxAVM9sgguVj4g/7_0_172_1duhamelfinal.jpg"
+    alt="CEO Profile Image"> </img>
+    <h2> John Doe </h2>
+    <p class="mail"> johndoe41@gmail.com </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <button class="btn"> CONTACT ME </button>
+  </div>
+
+  <div class="item-2">
+    <img class="profile" src="https://imgix.ranker.com/user_node_img/50007/1000137789/original/so-their-online-dating-profile-gets-the-attention-it-deserves-all-people-photo-u3?w=650&q=50&fm=jpg&fit=crop&crop=faces"
+    alt="CEO Profile Image"> </img>
+    <h2> Jane Doe </h2>
+    <p class="mail"> janedoe56@gmail.com </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <button class="btn"> CONTACT ME </button>
+  </div>
+
+  <div class="item-3">
+    <img class="profile" src="http://square-vn.com/app/dscms/assets/images/person-1.jpg?v=1584725519"
+    alt="CEO Profile Image"> </img>
+    <h2> Mark </h2>
+    <p class="mail"> markthekoala11@gmail.com </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <button class="btn"> CONTACT ME </button>
+  </div>
+</div>
+
+
+
+<div class="form">
+<form>
+  <h1> Contact Us </h1>
+  <h3> Your Name:</h3> <input placeholder="Enter Your Name Here"></input>
+  <h3> Your Email: </h3> <input placeholder="Enter Your Email Here"></input>
+  <h3> Message: </h3> <textarea placeholder="Enter your message here..."></textarea>
+  <button id="form-button"> Submit </button>
+</form>
+</div>
+
+<footer>
+  <div class="footer-logo-section">
+    <h1>PICO</h1>
+    <i style="font-size: 19px; margin-right: 5px; margin-top: 30px; cursor: pointer;" class="fa fa-facebook"></i>
+    <i style="font-size: 19px; margin-right: 5px; cursor: pointer;" class="fa fa-google-plus"></i>
+    <i style="font-size: 19px; margin-right: 5px; cursor: pointer;" class="fa fa-instagram"></i>
+    <i style="font-size: 19px; cursor: pointer;" class="fa fa-twitter"></i>
+    <!--bunch of other social icons under this-->
+  </div>
+  <!--links for the pages or other external sources-->
+
+</body>
+<script>
+   var animation = document.getElementById("box");
+animation.style.webkitAnimationPlayState = "paused";
+var stars = document.getElementById("starsContainer");
+stars.style.webkitAnimationPlayState = "paused";
+var craters = document.getElementById("cratersContainer");
+craters.style.webkitAnimationPlayState = "paused";
+
+var trigger = document.getElementById("box");
+trigger.addEventListener('click', animationStart);
+
+function animationStart () {
+  var animation = document.getElementById("box");
+  var divAnimation = document.getElementById("animationContainer");
+  var textGoner = document.getElementById("clickMe");
+  var stars = document.getElementById("starsContainer");
+  var craters = document.getElementById("cratersContainer");
+  craters.style.webkitAnimationPlayState = "running";
+  stars.style.webkitAnimationPlayState = "running";
+  textGoner.style.display = "none";
+  divAnimation.style.webkitAnimationPlayState = "running";
+  animation.style.webkitAnimationPlayState = "running";
+  animation.style.cursor = "default";
+}
+
+var tab1 = document.getElementById("tabContainer1");
+var button1 = document.getElementById("button1");
+var button2 = document.getElementById("button2");
+var button3 = document.getElementById("button3");
+
+button1.addEventListener('click', showContent1);
+button2.addEventListener('click', showContent2);
+button3.addEventListener('click', showContent3);
+
+//Content 1- Heading 1 for the Tab Button 1//
+function showContent1 () {
+  var tab2 = document.getElementById("tabContainer2");
+  var tab1 = document.getElementById("tabContainer1");
+  var tab3 = document.getElementById("tabContainer3");
+  tab1.style.display = "block";
+  tab2.style.display = "none";
+  tab3.style.display = "none";
+  var button1 = document.getElementById("button1");
+  var button2 = document.getElementById("button2");
+  var button3 = document.getElementById("button3");
+  button1.style.backgroundColor = "black";
+  button2.style.backgroundColor = "#343538";
+  button3.style.backgroundColor = "#343538";
+}
+
+//Content 2- Heading 2 for the Tab Button 2//
+function showContent2 () {
+  var tab2 = document.getElementById("tabContainer2");
+  var tab1 = document.getElementById("tabContainer1");
+  var tab3 = document.getElementById("tabContainer3"); 
+  tab3.style.display = "none"
+  tab1.style.display = "none";
+  tab2.style.display = "block";
+  button1.style.backgroundColor = "#343538";
+  button2.style.backgroundColor = "black";
+  button3.style.backgroundColor = "#343538";
+
+}
+
+//Content 3- Heading 3 for the Tab Button 3//
+function showContent3 () {
+  var tab2 = document.getElementById("tabContainer2");
+  var tab1 = document.getElementById("tabContainer1");
+  var tab3 = document.getElementById("tabContainer3");
+  tab1.style.display = "none";
+  tab2.style.display = "none";
+  tab3.style.display = "block";
+  button1.style.backgroundColor = "#343538";
+  button2.style.backgroundColor = "#343538";
+  button3.style.backgroundColor = "black";
+
+}
+</script>
+
+</html> 
